@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="jquery 1.js"></script>
+        <script>
+           $(document).ready(function(){
+            $("#btn1").click(function(){
+                $mytext=$("#txt1").val();
+                $("#txt2").val( $mytext);
+            });
+           });
+        </script>
+    </head>
+    <body>
+        <input type="text" id="txt1" placeholder="enter text">
+        <input type="text" id="txt2">
+        <input type="button" id="btn1" value="click me">
+    </body>
+</html>

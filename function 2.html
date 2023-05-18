@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="jquery 1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $mytxt="hai";
+                    $("#p1").append( $mytxt);
+                });
+            });
+            $("#btn1").click(function(){
+                $mytxt="hello";
+                $("#p1").empty();
+            });
+        </script>
+    </head>
+    <body>
+        <p id="p1">welcomes you...</p>
+        <input type="button" id="btn1" value="append me">
+        <input type="button" id="btn1"  value="empty me">
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="jquery 1.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#txt2").focus(function(){
+                    alert("focused on textbox2");
+                });
+                $("#txt1").blur(function(){
+                    alert("leaved from textbox1");
+                });
+                $("#txt2").change(function(){
+                    alert("change from textbox2");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <input type="text" id="txt1" placeholder="textbox1">
+        <input type="text" id="txt2" placeholder="textbox2">
+        <input type="text" id="txt3" placeholder="textbox3">
+    </body>
+</html>

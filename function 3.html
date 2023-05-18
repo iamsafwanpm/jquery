@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="jquery 1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("#p1").hide();
+                });
+                $("#btn2").click(function(){
+                    $("#p1").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="p1">welcomes you...</p> 
+        <input type="button" id="btn1" value="click to hide">
+        <input type="button" id="btn2" value="click to show">
+    </body>
+</html>
